@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: alhmoreu/alhmoreu.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I am Ana and I started my journey into Data Science more than a year ago when I was convinced that the field of Data Science was the future of computer science and wanted to build my expertise on it.
+  Hi, I'm Ana and I started my journey into Data Science more than a year ago when I was convinced that the field of Data Science was the future of computer science and wanted to build my expertise on it.
   That is why I am very much interested in Applying Data Science techniques of Machine Learning and Artificial Intelligence to solve real world problems. As a Data Scientist I have experience in object-oriented programming, agile development methodology Scrum and algorithm analysis in the telecommunications sector. As an Industrial Engineer I have experience in research, planning and management in the energy sector. I have worked in different companies gaining strong analysis and problem solving skills, management and coordination of teams.
 
  “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
@@ -78,13 +78,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Telefónica
+        # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Junior Data Scientist
+        caption: November 2021 - Present
+        # quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
@@ -92,27 +92,61 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Universidad Politécnica de Valencia
+        caption: 2017 - 2019
+        sub_title: Master in Industrial Engineering 
+        # quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          This 2 years programme Master's degree provides a solid scientific background, as well as a wide variety of knowledge in various industrial technologies (mechanical, electrical, electronic, automatic, materials, industrial buildings, projects, production, environment, energy and industrial organization) for free exercise of the profession.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          Registration of Honor in:
+            - Business management
+            - Instrumentation and Industrial Control
+          
+          Master thesis: Design of a Local Electricity Market model to favor the integration of distributed energy resources in competitive electrical systems: application to the island of Menorca
+
+      - layout: left
+        title: Universidad Politécnica de Madrid
+        caption: 2012 - 2016
+        sub_title: Degree of Energy Engineering 
+        # quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Member of the Energy Engineering Department Council as a student representative in the 2015/16 academic year.
+          The goal of this Bachelor is to endow engineers with expertise in renewable and conventional energy, energy efficiency and efficient consumption by the study of specific cutting-edge skills in energy generation and consumption technologies, and in business and market financial management in this industry.
+          Specialisation: Energy Technologies (power generation, renewable energies, electricity markets, nuclear technology)
+
+          Registration of Honor in:
+            - Fundamentals of Power Electronics
+            - Radiological Protection
+            - Nuclear Security
+            - Business Management
+
+          Degree thesis: Tecnology and tests with a proton exchange membrane fuel cell
+
+  - title: Online Certified courses
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Stanford online:
+        - Machine Learning
+      Deep Learning AI
+        - Neural Networks and Deep Learning
+        - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+        - Structuring Machine Learning Projects
+        - Convolutional Neural Networks
+        - Sequence Models
+      Kaggel
+        - Advanced SQL
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in Machine Learning and Deep Learning some of my other interests and hobbies are:
+      - Dance
+      - Swimming
+      - Reading
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
