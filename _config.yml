@@ -6,26 +6,26 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Ana López-Hidalgo Moreu
+title: Data Scientist | Industrial Engineer
+email: ana.lmoreu@gmail.com
+website: www.github.com/alhmoreu
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  alhmoreu
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: anlohidatascientist
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -48,9 +48,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, I am Ana and I started my journey into Data Science more than a year ago when I was convinced that the field of Data Science was the future of computer science and wanted to build my expertise on it.
+  That is why I am very much interested in Applying Data Science techniques of Machine Learning and Artificial Intelligence to solve real world problems. As a Data Scientist I have experience in object-oriented programming, agile development methodology Scrum and algorithm analysis in the telecommunications sector. As an Industrial Engineer I have experience in research, planning and management in the energy sector. I have worked in different companies gaining strong analysis and problem solving skills, management and coordination of teams.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+ “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
+ ― Albert Einstein
 
 content:
   - title: Projects # Title for the section
