@@ -9,7 +9,7 @@ version: 2
 name: Ana López-Hidalgo Moreu
 title: Data Scientist | Industrial Engineer
 email: ana.lmoreu@gmail.com
-website: www.github.com/alhmoreu
+website: www.github.com/rub
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -25,7 +25,7 @@ github_username:  alhmoreu
 linkedin_username: anlohidatascientist
 # xing_username: jekyll
 # pinterest_username: jekyll
-# youtube_username: globalmtb
+# youtube_username: globalmtbs
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -51,8 +51,8 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Ana and I started my journey into Data Science more than a year ago when I was convinced that the field of Data Science was the future of computer science and wanted to build my expertise on it.
   That is why I am very much interested in Applying Data Science techniques of Machine Learning and Artificial Intelligence to solve real world problems. As a Data Scientist I have experience in object-oriented programming, agile development methodology Scrum and algorithm analysis in the telecommunications sector. As an Industrial Engineer I have experience in research, planning and management in the energy sector. I have worked in different companies gaining strong analysis and problem solving skills, management and coordination of teams.
 
- “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
- ― Albert Einstein
+  “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
+  ― Albert Einstein
 
 content:
   - title: Projects # Title for the section
