@@ -9,7 +9,7 @@ version: 2
 name: Ana López-Hidalgo Moreu
 title: Data Scientist | Industrial Engineer
 email: ana.lmoreu@gmail.com
-website: www.github.com/rub
+website: www.github.com/alhmoreu
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -30,10 +30,10 @@ linkedin_username: anlohidatascientist
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,31 +48,36 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Ana and I started my journey into Data Science more than a year ago when I was convinced that the field of Data Science was the future of computer science and wanted to build my expertise on it.
-  That is why I am very much interested in Applying Data Science techniques of Machine Learning and Artificial Intelligence to solve real world problems. As a Data Scientist I have experience in object-oriented programming, agile development methodology Scrum and algorithm analysis in the telecommunications sector. As an Industrial Engineer I have experience in research, planning and management in the energy sector. I have worked in different companies gaining strong analysis and problem solving skills, management and coordination of teams.
+  Hi, I'm Ana and I started my journey into Data Science more than a year ago when I was convinced that this field would be the future of computer science and wanted to build my expertise on it.
+
+  As a Data Scientist I have experience in object-oriented programming, agile development methodology Scrum and algorithm analysis in the telecommunications sector. 
+  As an Industrial Engineer I have experience in research, planning and management in the energy sector. 
 
   “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
   ― Albert Einstein
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Programming 
+       - Intermediate level of Python
+       - Experience with Python using libraries like Numpy, Pandas, TensorFlow and Pytorch
+       - Experience with object-oriented programming
+
+      
+      Software Development
+       - Experience with the Scrum agile development methodology
+       - Experience with Linux, bash and Git/Github for version control
+       - Automation of processes with daemons (Cron)
+
+      Machine learning
+       - Knowledge of the mathematical foundations of Machine Learning
+       - Experience with supervised and unsupervised learning algorithms
+       - Experience with Deep Learning and the use of different types of neural networks
+
+      Database
+       - Intermediate level of SQL
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -93,7 +98,7 @@ content:
           with low user download
 
           Technology Stack:
-          Prophet - Statsmodels - Python - Pandas - Jira - GitLab - Splunk
+          Prophet - Statsmodels - LightGBM - <mark>Python</mark> - <mark>Pandas</mark> - Jira - <mark>GitLab</mark> - Splunk
 
       - layout: left
         title: Técnicas Reunidas
@@ -124,12 +129,12 @@ content:
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           This 2 years programme Master's degree provides a solid scientific background, as well as a wide variety of knowledge in various industrial technologies (mechanical, electrical, electronic, automatic, materials, industrial buildings, projects, production, environment, energy and industrial organization) for free exercise of the profession.
-
-          Registration of Honor in:
+          
+          _Master thesis_: Design of a Local Electricity Market model to favor the integration of distributed energy resources in competitive electrical systems: application to the island of Menorca
+          
+          **Registration of Honor in**:
             - Business management
             - Instrumentation and Industrial Control
-          
-          Master thesis: Design of a Local Electricity Market model to favor the integration of distributed energy resources in competitive electrical systems: application to the island of Menorca
 
       - layout: left
         title: Universidad Politécnica de Madrid
@@ -138,39 +143,54 @@ content:
         # quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          Member of the Energy Engineering Department Council as a student representative in the 2015/16 academic year.
-          The goal of this Bachelor is to endow engineers with expertise in renewable and conventional energy, energy efficiency and efficient consumption.
-          Specialisation: Energy Technologies (power generation, renewable energies, electricity markets, nuclear technology)
+          _Activities_: Member of the Energy Engineering Department Council as a student representative in 2015-16.
+          
+          This Bachelor endows engineers with expertise in renewable and conventional energy, energy efficiency and efficient consumption.
 
-          Registration of Honor in:
+          _Degree thesis_: Tecnology and tests with a proton exchange membrane fuel cell
+
+          **Registration of Honor in**:
             - Fundamentals of Power Electronics
             - Radiological Protection
             - Nuclear Security
             - Business Management
 
-          Degree thesis: Tecnology and tests with a proton exchange membrane fuel cell
 
-  - title: Online Certified courses
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Stanford online:
-        - Machine Learning
-      Deep Learning AI
-        - Neural Networks and Deep Learning
-        - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
-        - Structuring Machine Learning Projects
-        - Convolutional Neural Networks
-        - Sequence Models
-      Kaggel
-        - Advanced SQL
+  - title: Online Certified courses # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Stanford Online University
+        caption: 2020 - 2021
+        sub_title:  Machine Learning Course
+        # quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          This course takes about 11 weeks to complete. It teaches how to extract and identify useful features that best represent your data, some of the most important machine learning algorithms, and how to evaluate the performance of algorithms.
+
+      - layout: left
+        title: DeepLearning.AI
+        caption: 2020 - 2021
+        sub_title: Deep Learning Specialization
+        # quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          There are 5 courses in this Deep Learning Specialization Course. In this Specialization, you built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learned how to make them better with strategies such as Dropout, BatchNorm, and Xavier/He initialization. You mastered these theoretical concepts, learned their industry applications using Python and <mark>TensorFlow</mark>, and tackled real-world cases such as autonomous driving, speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more. You are now familiar with the capabilities and challenges of deep learning.
+          - Neural Networks and Deep Learning
+          - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+          - Structuring Machine Learning Projects
+          - Convolutional Neural Networks
+          - Sequence Models
+
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in Machine Learning and Deep Learning some of my other interests and hobbies are:
-      - Dance
-      - Swimming
-      - Reading
+      - Dance     - Swimming     - Play padel
+      - Reading   - Solve brainteasers   - Financial Markets
+      - Environment
+              
 
 
 # Footer
