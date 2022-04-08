@@ -15,34 +15,9 @@ website: www.github.com/alhmoreu
 darkmode: false
 
 # Social links
-# twitter_username: facespics
 github_username:  alhmoreu
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 linkedin_username: anlohidatascientist
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtbs
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me
@@ -59,7 +34,7 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Skills
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       Programming 
        - Intermediate level of Python
        - Experience with Python using libraries like Numpy, Pandas, TensorFlow and Pytorch
@@ -84,13 +59,9 @@ content:
     content:
       - layout: left
         title: Telefónica
-        # link: boringcompany.com
-        # link_text: boringcompany.com
         sub_title: Junior Data Scientist
         caption: November 2021 - Present
-        # quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           Autos Locos - Internal initiative to automate processes. Ongoing projects:
           - Mobile planning: Predict the behavior of STP traffic (2G and 3G networks) for
           each carrier
@@ -102,13 +73,9 @@ content:
 
       - layout: left
         title: Técnicas Reunidas
-        # link: boringcompany.com
-        # link_text: boringcompany.com
         sub_title: Project Engineer in Heat Transfer Division
         caption: September 2019 - August 2020
-        # quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           I worked in a multidisciplinary and multicultural team for the execution of refinery furnaces in
           Duqm Oman.
           Responsibilities:
@@ -118,16 +85,14 @@ content:
           - Technical tabulation of offers
           - Documentation control
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education 
+    layout: list 
     content:
       - layout: left
         title: Universidad Politécnica de Valencia
         caption: 2017 - 2019
         sub_title: Master in Industrial Engineering 
-        # quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           This 2 years programme Master's degree provides a solid scientific background, as well as a wide variety of knowledge in various industrial technologies (mechanical, electrical, electronic, automatic, materials, industrial buildings, projects, production, environment, energy and industrial organization) for free exercise of the profession.
           
           _Master thesis_: Design of a Local Electricity Market model to favor the integration of distributed energy resources in competitive electrical systems: application to the island of Menorca
@@ -140,9 +105,7 @@ content:
         title: Universidad Politécnica de Madrid
         caption: 2012 - 2016
         sub_title: Degree of Energy Engineering 
-        # quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           _Activities_: Member of the Energy Engineering Department Council as a student representative in 2015-16.
           
           This Bachelor endows engineers with expertise in renewable and conventional energy, energy efficiency and efficient consumption.
@@ -156,25 +119,21 @@ content:
             - Business Management
 
 
-  - title: Online Certified courses # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Online Certified courses 
+    layout: list 
     content:
       - layout: left
         title: Stanford Online University
         caption: 2020 - 2021
         sub_title:  Machine Learning Course
-        # quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           This course takes about 11 weeks to complete. It teaches how to extract and identify useful features that best represent your data, some of the most important machine learning algorithms, and how to evaluate the performance of algorithms.
 
       - layout: left
         title: DeepLearning.AI
         caption: 2020 - 2021
         sub_title: Deep Learning Specialization
-        # quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           There are 5 courses in this Deep Learning Specialization Course. In this Specialization, you built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learned how to make them better with strategies such as Dropout, BatchNorm, and Xavier/He initialization. You mastered these theoretical concepts, learned their industry applications using Python and <mark>TensorFlow</mark>, and tackled real-world cases such as autonomous driving, speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more. You are now familiar with the capabilities and challenges of deep learning.
           - Neural Networks and Deep Learning
           - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
@@ -185,7 +144,7 @@ content:
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: | 
       Alongside my interests in Machine Learning and Deep Learning some of my other interests and hobbies are:
       - Dance     - Swimming     - Play padel
       - Reading   - Solve brainteasers   - Financial Markets
