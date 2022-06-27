@@ -53,6 +53,9 @@ content:
 
       Database
        - Intermediate level of SQL
+       
+      Cloud
+       - Experience with Amazon Web Services
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -69,7 +72,7 @@ content:
           with low user download
 
           Technology Stack:
-          Prophet - Statsmodels - LightGBM - <mark>Python</mark> - <mark>Pandas</mark> - Jira - <mark>GitLab</mark> - Splunk
+          Prophet - Statsmodels - LightGBM - <mark>Python</mark> - <mark>Pandas</mark> - Jira - <mark>GitLab</mark> - Splunk - <mark>AWS</mark>
 
       - layout: left
         title: Técnicas Reunidas
