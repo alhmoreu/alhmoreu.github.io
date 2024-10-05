@@ -23,53 +23,71 @@ linkedin_username: anlohidatascientist
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Ana and I started my journey into Data Science more than a year ago when I was convinced that this field would be the future of computer science and wanted to build my expertise on it.
+  Hi, I'm Ana and I started my journey into Data Science more than three years ago when I was convinced that this field would be the future of computer science and wanted to build my expertise on it.
 
-  As a Data Scientist I have experience in object-oriented programming, agile development methodology Scrum and algorithm analysis in the telecommunications sector. 
+  As a Data Scientist I have experience in machine learning, particularly in anomaly detection and time series forecasting. I've been involved in every aspect of projects, from digging into data and analyzing it to deploying models in production.
+
   As an Industrial Engineer I have experience in research, planning and management in the energy sector. 
 
-  “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
+  ― “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
   ― Albert Einstein
 
 content:
   - title: Skills
     layout: text
     content: |
-      Programming 
-       - Intermediate level of Python
-       - Experience with Python using libraries like Numpy, Pandas, TensorFlow and Pytorch
-       - Experience with object-oriented programming
+      Programming
+       - Intermediate level in Python with experience using libraries such as Numpy, Pandas and Scikit-learn.
+       - Experience with object-oriented programming (OOP).
 
-      
+      Machine Learning
+       - Solid understanding of the mathematical foundations of Machine Learning.
+       - Experience with supervised and unsupervised learning algorithms.
+
+      Data Visualization
+       - Experience using Python libraries such as Matplotlib, Seaborn and Plotly.
+       - Experience with Power BI for business intelligence.
+
       Software Development
-       - Experience with the Scrum agile development methodology
-       - Experience with Linux, bash and Git/Github for version control
-       - Automation of processes with daemons (Cron)
+       - Experience working with the Scrum agile development methodology.
+       - Familiarity with Linux, bash and Git/Github for version control.
+       - Automation of processes with daemons (Cron).
 
-      Machine learning
-       - Knowledge of the mathematical foundations of Machine Learning
-       - Experience with supervised and unsupervised learning algorithms
-       - Experience with Deep Learning and the use of different types of neural networks
-
-      Database
-       - Intermediate level of SQL
+      Data Technologies
+       - Intermediate level of SQL.
+       - Intermediate level of PySpark.
        
       Cloud
-       - Experience with Amazon Web Services
+       - Experience with Amazon Web Services.
+       - Experience with Microsoft Azure.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Inditex
+        sub_title: Data Scientist
+        caption: September 2022 - Present
+        description: | 
+          I have been involved in the following projects:
+          - Anomaly detection in ambient temperature signals and energy consumption within stores.
+          - Monthly energy consumption forecasting for Inditex stores.
+          - Anomaly detection in people-counting devices installed in stores.
+          - Estimation of the number of people entering and exiting retail stores.
+
+          Technology Stack:
+          Clustering Models - Statistical Models - XGBoost - <mark>Pyspark</mark> - <mark>GitHub</mark> - <mark>Microsoft Azure</mark>
+
+      - layout: left
         title: Telefónica
         sub_title: Junior Data Scientist
-        caption: November 2021 - Present
+        caption: November 2021 - September 2022
         description: | 
           Autos Locos - Internal initiative to automate processes. Ongoing projects:
           - Mobile planning: Predict the behavior of STP traffic (2G and 3G networks) for
-          each carrier
+          each carrier.
           - Classification and RCA of Low Throughput cells: Automation of cell sorting cells
-          with low user download
+          with low user download.
 
           Technology Stack:
           Prophet - Statsmodels - LightGBM - <mark>Python</mark> - <mark>Pandas</mark> - Jira - <mark>GitLab</mark> - Splunk - <mark>AWS</mark>
@@ -82,11 +100,11 @@ content:
           I worked in a multidisciplinary and multicultural team for the execution of refinery furnaces in
           Duqm Oman.
           Responsibilities:
-          - Communication management with stakeholders
-          - Expediting of engineering and suppliers
-          - Control of scope and schedule
-          - Technical tabulation of offers
-          - Documentation control
+          - Communication management with stakeholders.
+          - Expediting of engineering and suppliers.
+          - Control of scope and schedule.
+          - Technical tabulation of offers.
+          - Documentation control.
 
   - title: Education 
     layout: list 
@@ -96,30 +114,30 @@ content:
         caption: 2017 - 2019
         sub_title: Master in Industrial Engineering 
         description: | 
-          This 2 years programme Master's degree provides a solid scientific background, as well as a wide variety of knowledge in various industrial technologies (mechanical, electrical, electronic, automatic, materials, industrial buildings, projects, production, environment, energy and industrial organization) for free exercise of the profession.
+          This 2 years Master's degree expands knowledge in industrial technologies, including mechanical, electrical, electronic, automation, materials science, industrial buildings, project management, production, energy, and industrial organization, to enable professional practice in these fields.
           
-          _Master thesis_: Design of a Local Electricity Market model to favor the integration of distributed energy resources in competitive electrical systems: application to the island of Menorca
+          _Master thesis_: Design of a Local Electricity Market model to favor the integration of distributed energy resources in competitive electrical systems: application to the island of Menorca.
           
           **Registration of Honor in**:
-            - Business management
-            - Instrumentation and Industrial Control
+            - Business management.
+            - Instrumentation and Industrial Control.
 
       - layout: left
         title: Universidad Politécnica de Madrid
         caption: 2012 - 2016
         sub_title: Degree of Energy Engineering 
-        description: | 
-          _Activities_: Member of the Energy Engineering Department Council as a student representative in 2015-16.
-          
+        description: |   
           This Bachelor endows engineers with expertise in renewable and conventional energy, energy efficiency and efficient consumption.
 
-          _Degree thesis_: Tecnology and tests with a proton exchange membrane fuel cell
+          _Degree thesis_: Tecnology and tests with a proton exchange membrane fuel cell.
+
+          _Activities_: Member of the Energy Engineering Department Council as a student representative in 2015-16.
 
           **Registration of Honor in**:
-            - Fundamentals of Power Electronics
-            - Radiological Protection
-            - Nuclear Security
-            - Business Management
+            - Fundamentals of Power Electronics.
+            - Radiological Protection.
+            - Nuclear Security.
+            - Business Management.
 
 
   - title: Online Certified courses 
@@ -130,14 +148,14 @@ content:
         caption: 2020 - 2021
         sub_title:  Machine Learning Course
         description: | 
-          This course takes about 11 weeks to complete. It teaches how to extract and identify useful features that best represent your data, some of the most important machine learning algorithms, and how to evaluate the performance of algorithms.
+          This course covers the application of advanced machine learning algorithms to problems such as anti-spam, image recognition, clustering, and recommender systems. It also includes training on selecting the appropriate algorithms and improving their performance through debugging and optimization.
 
       - layout: left
         title: DeepLearning.AI
         caption: 2020 - 2021
         sub_title: Deep Learning Specialization
         description: | 
-          There are 5 courses in this Deep Learning Specialization Course. In this Specialization, you built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learned how to make them better with strategies such as Dropout, BatchNorm, and Xavier/He initialization. You mastered these theoretical concepts, learned their industry applications using Python and <mark>TensorFlow</mark>, and tackled real-world cases such as autonomous driving, speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more. You are now familiar with the capabilities and challenges of deep learning.
+          This Deep Learning Specialization consists of 5 courses that cover building neural network architectures like Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, and Transformers. It includes techniques to improve these networks, such as Dropout and BatchNorm, and applications using Python and TensorFlow. The specialization addresses real-world cases including autonomous driving, speech recognition, and natural language processing, providing a comprehensive understanding of deep learning capabilities and challenges.
           - Neural Networks and Deep Learning
           - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
           - Structuring Machine Learning Projects
@@ -148,10 +166,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | 
-      Alongside my interests in Machine Learning and Deep Learning some of my other interests and hobbies are:
-      - Dance     - Swimming     - Play padel
-      - Reading   - Solve brainteasers   - Financial Markets
-      - Environment
+      Outside of work, dance is a significant part of my life. I’ve danced ballet for over ten years and enjoy contemporary dance and salsa. I also love reading and learning languages, like Chinese. Swimming is my personal escape, and I enjoy spending time with friends and connecting with nature.
               
 
 
