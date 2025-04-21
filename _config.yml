@@ -3,7 +3,7 @@ repository: alhmoreu/alhmoreu.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 2
+version: 3
 
 # Personal info
 name: Ana López-Hidalgo Moreu
@@ -50,7 +50,7 @@ content:
 
       Software Development
        - Experience working with the Scrum agile development methodology.
-       - Familiarity with Linux, bash and Git/Github for version control.
+       - Familiarity with Git/Github for version control.
        - Automation of processes with daemons (Cron).
 
       Data Technologies
@@ -66,14 +66,13 @@ content:
     content:
       - layout: left
         title: Inditex
-        sub_title: Data Scientist
-        caption: September 2022 - Present
+        sub_title: Junior Data Scientist
+        caption: September 2022 - January 2025
         description: | 
           I have been involved in the following projects:
           - Anomaly detection in ambient temperature signals and energy consumption within stores.
           - Monthly energy consumption forecasting for Inditex stores.
           - Anomaly detection in people-counting devices installed in stores.
-          - Estimation of the number of people entering and exiting retail stores.
 
           Technology Stack:
           Clustering Models - Statistical Models - XGBoost - <mark>Pyspark</mark> - <mark>GitHub</mark> - <mark>Microsoft Azure</mark>
@@ -83,11 +82,9 @@ content:
         sub_title: Junior Data Scientist
         caption: November 2021 - September 2022
         description: | 
-          Autos Locos - Internal initiative to automate processes. Ongoing projects:
+          Autos Locos - Internal initiative to automate processes.
           - Mobile planning: Predict the behavior of STP traffic (2G and 3G networks) for
           each carrier.
-          - Classification and RCA of Low Throughput cells: Automation of cell sorting cells
-          with low user download.
 
           Technology Stack:
           Prophet - Statsmodels - LightGBM - <mark>Python</mark> - <mark>Pandas</mark> - Jira - <mark>GitLab</mark> - Splunk - <mark>AWS</mark>
